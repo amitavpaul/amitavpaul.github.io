@@ -15,6 +15,7 @@
     - home section -
     - About section -
     - experience section -
+    - education section -
     - projects section -
     - Contact section -
     - Responsive media queries -
@@ -319,8 +320,28 @@ a.active {
     z-index: 1
 }
 
+/* work section
+==================================================*/
 
-/* experience section
+#work {
+  background-image: url("img/experience.jpg");
+  background-attachment: fixed;
+  background-color: rgb(249, 249, 249);
+  padding: 100px 0;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 0;
+  background-position-x: 50%;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+}
+
+/* education section
 ==================================================*/
 
 #experience {
