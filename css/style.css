@@ -329,16 +329,11 @@ a.active {
   background-color: rgb(249, 249, 249);
   padding: 100px 0;
   overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
   position: relative;
   background-size: cover;
   background-position: 50% 0;
-  background-position-x: 50%;
-  background-position-y: 0px;
   background-repeat: no-repeat;
   z-index: 1;
-  display: block;
 }
 
 /* education section
