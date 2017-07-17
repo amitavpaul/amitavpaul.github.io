@@ -328,16 +328,75 @@ a.active {
 ==================================================*/
 
 #work {
-  background-image: url(../img/experience.jpg);
-  background-attachment: fixed;
-  background-color: rgb(249, 249, 249);
-  padding: 100px 0;
-  overflow: hidden;
-  position: relative;
-  background-size: cover;
-  background-position: 50% 0;
-  background-repeat: no-repeat;
-  z-index: 1;
+    background-image: url(../img/experience.jpg);
+    background-attachment: fixed;
+    background-color: rgb(249, 249, 249);
+    padding: 100px 0;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#work .row {
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px)
+#work .row {
+    margin-left: -30px;
+}
+
+@media (min-width: 1200px)
+#work .row:before, .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+@media (min-width: 1200px)
+.row:after {
+    clear: both;
+}
+
+.row > div {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px)
+.span3 {
+    width: 270px;
+}
+
+@media (min-width: 1200px)
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+
+.span3 {
+    width: 220px;
+}
+
+[class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+.span3 p {
+    clear: both;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 /* education section
