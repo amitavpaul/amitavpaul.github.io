@@ -43,6 +43,10 @@ h1 {
     line-height: 70px;
 }
 
+h1:first-line { 
+   margin-bottom: 10px; 
+}
+
 h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
