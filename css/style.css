@@ -324,7 +324,7 @@ a.active {
 ==================================================*/
 
 #work {
-  background-image: url("img/experience.jpg");
+  background-image: url(../img/experience.jpg);
   background-attachment: fixed;
   background-color: rgb(249, 249, 249);
   padding: 100px 0;
